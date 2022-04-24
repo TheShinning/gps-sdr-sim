@@ -1,0 +1,2 @@
+E:\software\codesoftware\mingw64\bin\ar.exe qc ..\Lib\liblibInsd.a "CMakeFiles/libIns.dir/ins-align.cpp.obj" "CMakeFiles/libIns.dir/ins-com.cpp.obj" "CMakeFiles/libIns.dir/ins-earth.cpp.obj" "CMakeFiles/libIns.dir/ins-input-data.cpp.obj" "CMakeFiles/libIns.dir/ins-mechaniza.cpp.obj" "CMakeFiles/libIns.dir/ins-nhc.cpp.obj" "CMakeFiles/libIns.dir/ins-zupt.cpp.obj" CMakeFiles/libIns.dir/ins.cpp.obj
+E:\software\codesoftware\mingw64\bin\ranlib.exe ..\Lib\liblibInsd.a

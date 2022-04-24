@@ -1,0 +1,2 @@
+E:\software\codesoftware\mingw64\bin\ar.exe qc ..\Lib\liblibKfd.a CMakeFiles/libKf.dir/kf.cpp.obj CMakeFiles/libKf.dir/match_file.cpp.obj
+E:\software\codesoftware\mingw64\bin\ranlib.exe ..\Lib\liblibKfd.a

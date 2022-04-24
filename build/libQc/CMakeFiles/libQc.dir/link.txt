@@ -1,0 +1,2 @@
+E:\software\codesoftware\mingw64\bin\ar.exe qc ..\Lib\liblibQcd.a CMakeFiles/libQc.dir/qc.cpp.obj
+E:\software\codesoftware\mingw64\bin\ranlib.exe ..\Lib\liblibQcd.a

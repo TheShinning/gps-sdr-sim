@@ -1,0 +1,312 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libGnss",
+					"jsonFile" : "directory-libGnss-Debug-4e29d2c27902d5471afd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/LibGnss",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libIns",
+					"jsonFile" : "directory-libIns-Debug-e17b9d74143551305215.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/LibIns",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "libFusion",
+					"jsonFile" : "directory-libFusion-Debug-7d10dc8346f35a85ae0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/LibFusion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libQc",
+					"jsonFile" : "directory-libQc-Debug-31bbddad2ae9e1d0ce03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/LibQc",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libKf",
+					"jsonFile" : "directory-libKf-Debug-8f9e701e65e02d44d306.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/LibKf",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "libUnit",
+					"jsonFile" : "directory-libUnit-Debug-d15c7a8b7132fd78701f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/LibUnit",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "iRTKLIB",
+					"jsonFile" : "directory-iRTKLIB-Debug-9f21810b15698be76fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GARPS"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libGnss",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libIns",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libFusion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libQc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libKf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "libUnit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iRTKLIB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "libFusion::@a9bf0a33f079814420a0",
+					"jsonFile" : "target-libFusion-Debug-b310f88136bd2dadda17.json",
+					"name" : "libFusion",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libGnss::@439fe4c74cd3d0497a74",
+					"jsonFile" : "target-libGnss-Debug-ccdd5108ed50c5857dd5.json",
+					"name" : "libGnss",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libIns::@1ab08e04ca9cab33d4c7",
+					"jsonFile" : "target-libIns-Debug-216ecd611be6987167cb.json",
+					"name" : "libIns",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libKf::@38685218a3211e088ba2",
+					"jsonFile" : "target-libKf-Debug-774c96968b4fc5f962cb.json",
+					"name" : "libKf",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libQc::@cae8a19d9da707e08ed0",
+					"jsonFile" : "target-libQc-Debug-ff27f99da504d4c0ed7b.json",
+					"name" : "libQc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "libUnit::@f7486226e6b492f5b139",
+					"jsonFile" : "target-libUnit-Debug-3dc71a93da3067948429.json",
+					"name" : "libUnit",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pppar::@9bb434de1386f20709a8",
+					"jsonFile" : "target-pppar-Debug-aa4df3cf7f14d3cb87ca.json",
+					"name" : "pppar",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "rtknavi::@9bb434de1386f20709a8",
+					"jsonFile" : "target-rtknavi-Debug-d46ae5cd049e84de6c97.json",
+					"name" : "rtknavi",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "H:/winmove/project/pppar/pppartest/GARPS/build",
+		"source" : "H:/winmove/project/pppar/pppartest/GARPS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

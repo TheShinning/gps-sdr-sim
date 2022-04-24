@@ -1,0 +1,312 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libGnss",
+					"jsonFile" : "directory-src.LibGnss-Debug-0782a5ea6b4eba10d4e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/LibGnss",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libIns",
+					"jsonFile" : "directory-src.LibIns-Debug-b85706802cca274231f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/LibIns",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libFusion",
+					"jsonFile" : "directory-src.LibFusion-Debug-d68b6aa3f91517b9c024.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/LibFusion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libQc",
+					"jsonFile" : "directory-src.LibQc-Debug-71d8e9407020c5c93156.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/LibQc",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libKf",
+					"jsonFile" : "directory-src.LibKf-Debug-ab6d4dcd6acea0464b59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/LibKf",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libUnit",
+					"jsonFile" : "directory-src.LibUnit-Debug-e8e58fa6c45e43a2a267.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/LibUnit",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/iRTKLIB",
+					"jsonFile" : "directory-src.app-Debug-9a3d0bed7bd39ccd1b2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GARPS"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libGnss",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libIns",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libFusion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libQc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libKf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "libUnit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "iRTKLIB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "libFusion::@1ba493e5f6671f7e9a25",
+					"jsonFile" : "target-libFusion-Debug-c39861f0710ae2e1e835.json",
+					"name" : "libFusion",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libGnss::@492328dc5f00cc6185a5",
+					"jsonFile" : "target-libGnss-Debug-3049322db012f7c8dc1b.json",
+					"name" : "libGnss",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libIns::@27c4920d64e328c04572",
+					"jsonFile" : "target-libIns-Debug-d70a9ab1cc32d7097093.json",
+					"name" : "libIns",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libKf::@36ce11cc202e61b3ceba",
+					"jsonFile" : "target-libKf-Debug-4f89f87d2c8bb6333e0b.json",
+					"name" : "libKf",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libQc::@0cc34021a694f98c8b56",
+					"jsonFile" : "target-libQc-Debug-fa71f2c5e353e89986c2.json",
+					"name" : "libQc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "libUnit::@df0a6469eb4dc19fab9e",
+					"jsonFile" : "target-libUnit-Debug-9966112f9ea2941c873f.json",
+					"name" : "libUnit",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pppar::@d1b9ebaeb82a88fdedd4",
+					"jsonFile" : "target-pppar-Debug-51e57ffa740e451f6144.json",
+					"name" : "pppar",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "rtknavi::@d1b9ebaeb82a88fdedd4",
+					"jsonFile" : "target-rtknavi-Debug-74d9445d483c778de1a6.json",
+					"name" : "rtknavi",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "H:/winmove/project/pppar/pppartest/GARPS/cmake-build-debug",
+		"source" : "H:/winmove/project/pppar/pppartest/GARPS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

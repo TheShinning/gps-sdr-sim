@@ -1,0 +1,26 @@
+"E:\software\codesoftware\Clion2021.3\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/software/codesoftware/Clion2021.3/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja H:\winmove\project\pppar\pppartest\GARPS
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/software/codesoftware/Clion2021.3/CLion 2021.3.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: E:/software/codesoftware/Clion2021.3/CLion 2021.3.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- operation system is : Windows-10.0.19044
+-- current platform is : Windows
+-- CMake version is    : 10.0.19044
+-- C compiler is : E:/software/codesoftware/Clion2021.3/CLion 2021.3.2/bin/mingw/bin/gcc.exe
+-- C++ compiler is : E:/software/codesoftware/Clion2021.3/CLion 2021.3.2/bin/mingw/bin/g++.exe
+-- The program main directory is : H:/winmove/project/pppar/pppartest/GARPS
+-- Configuring done
+-- Generating done
+-- Build files have been written to: H:/winmove/project/pppar/pppartest/GARPS/cmake-build-debug

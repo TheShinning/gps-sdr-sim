@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/libKf",
+		"source" : "src/LibKf"
+	}
+}

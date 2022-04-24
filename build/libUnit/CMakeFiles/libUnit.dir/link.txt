@@ -1,0 +1,2 @@
+E:\software\codesoftware\mingw64\bin\ar.exe qc ..\Lib\liblibUnitd.a CMakeFiles/libUnit.dir/mat.cpp.obj CMakeFiles/libUnit.dir/so3.cpp.obj "CMakeFiles/libUnit.dir/zupt-threshold.cpp.obj"
+E:\software\codesoftware\mingw64\bin\ranlib.exe ..\Lib\liblibUnitd.a

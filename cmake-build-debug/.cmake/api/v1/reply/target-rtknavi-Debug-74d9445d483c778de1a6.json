@@ -1,0 +1,283 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "H:/winmove/project/pppar/pppartest/GARPS/build/Bin/rtknavi.exe"
+		},
+		{
+			"path" : "H:/winmove/project/pppar/pppartest/GARPS/build/Bin/rtknavi.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/app/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++0x -pthread -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/thirdparty/Eigen"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/thirdparty/pthreads-w32-2-9-1-release"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/thirdparty/jsoncpp"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/app/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/LibGnss"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/LibIns"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/LibFusion"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/app/libKf"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/app/libQc"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "H:/winmove/project/pppar/pppartest/GARPS/src/LibUnit"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libKf::@36ce11cc202e61b3ceba"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libUnit::@df0a6469eb4dc19fab9e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libGnss::@492328dc5f00cc6185a5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libQc::@0cc34021a694f98c8b56"
+		}
+	],
+	"id" : "rtknavi::@d1b9ebaeb82a88fdedd4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++0x -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--stack,629145600",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibGnssd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibInsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibFusiond.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibQcd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibKfd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibUnitd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibGnssd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibInsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibFusiond.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibGnssd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibInsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibFusiond.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lWs2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lwinmm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\build\\Lib\\liblibUnitd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rtknavi",
+	"nameOnDisk" : "rtknavi.exe",
+	"paths" : 
+	{
+		"build" : "H:/winmove/project/pppar/pppartest/GARPS/build/iRTKLIB",
+		"source" : "src/app"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/app/rtkrcv.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
